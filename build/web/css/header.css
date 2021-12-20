@@ -1,0 +1,67 @@
+.header{  
+    color: #ffffff;
+}
+
+.menu{
+    background-color: #303030;
+    padding-left: 20vw;
+}
+
+.menu a{
+    text-decoration: none;
+    line-height: 45px;
+    color: #ffffff;
+    border-left: 1px solid #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.menu .activeHome{
+    color: greenyellow;
+}
+
+.menu .activeGallery1{
+    color: greenyellow;
+}
+
+.menu .activeGallery2{
+    color: greenyellow;
+}
+
+.menu .activeGallery3{
+    color: greenyellow;
+}
+
+.menu .activeContact{
+    color: greenyellow;
+}
+
+.title{
+    background-color: #722f31;
+    display: flex;
+    padding: 1vw 20vw;
+}
+
+.title .title-img{
+    width: 15%;
+    padding-right: 10px;
+}
+
+.title .title-name{
+    width: 90%;   
+}
+
+.title .title-img img{
+    width: 100%;
+    padding-top: 2vw;
+}
+
+.title .title-name h1{
+    font-size: 3vw;
+}
+
+.title .title-name p{
+    margin-top: 5px;
+    font-size: 2vw;
+}

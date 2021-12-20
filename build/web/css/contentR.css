@@ -1,0 +1,26 @@
+.content{
+    color: #ffffff;
+    background-color:  #993300;
+}
+
+.content-title{
+    background-color: #333300;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+.content-share{
+    padding-left: 10px;
+}
+
+.content-share a{
+    vertical-align: middle;
+    color: #ffffff;
+    align-items: center;
+}
+
+.content-share img{
+    width: 13%;
+    height: auto;
+    vertical-align: middle;
+}

@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 26, 2021, 3:44:31 PM
+    Author     : Hieu Mau
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.main{
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: #953f42;
+}
+
+.main-left{
+    float: left;
+    width: 75%;
+    height: auto;
+    padding-left: 5%;
+    padding-top: 10px;
+}
+
+.main-right{
+    float: left;
+    width: 20%;
+    height: auto;
+    margin: 10px; 
+    font-size: 1.2vw;
+}
+
+.main .main-left .main-img img{
+    width: 100%;
+    height: auto;
+}
+
+.main .main-left .main-img p{
+    line-height: 1px;
+}
+
+.main-view{
+    width: 100%;
+}
+
+.view{
+    width: 22vw;
+    padding: 20px;
+    display: inline-block;
+}
+
+.view .view-img img{
+    width: 100%;
+}
+
+.view a{
+    color: #ffffff;
+    font-size: 2vw;
+}
+
+.mySlides img{
+    width: 100%;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+}
+
+.info .info-left{
+    width: 10%;
+}
+
+.info .info-right{
+    color: #ffffff;
+    width: 90%;
+}
+.info .info-right a{
+    color: #ffffff;
+}
+
+.slide-show #Play{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map img{
+    width: 100%;
+}
+
+.gallery{
+    width: 100%;
+    height: auto;
+}
+
+.gallery-2 img{
+    width: 100%;
+    border: 2px solid #ffffff;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery-2{
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main{
+        padding-right: 10px;
+    }
+
+    .main-left  {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-right{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        padding-right: 10px;
+        font-size: 17px;
+    }
+
+    .content-share img{
+        width: 5% !important;
+    }
+
+    .gallery-2{
+        width: 50%;
+    }
+
+    .view{
+        width: 85%;
+        margin-left: 5%;
+    }
+}

@@ -1,0 +1,32 @@
+body{
+    margin: auto;
+    color: #ffffff;
+}
+
+.container{
+    margin: auto; 
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    padding: 3vw;
+    background-color: #953f42;
+}
+
+.main-left{
+    width: 70%;
+    margin-left: 20vw;
+    height: auto;
+}
+
+.main-right{
+    width: 20%;
+    margin: 0px 20vw 0px 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-left, .main-right {
+        width: 100%;
+    }
+}
